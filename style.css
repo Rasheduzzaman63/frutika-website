@@ -1,0 +1,606 @@
+/* common css starts here */
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+  
+}
+.btn{
+    border-style: none;
+    padding: 12px 18px;
+    margin: 8px;
+    border-radius: 40px;
+    border: 1px solid rgb(243, 133, 6);
+    font-size: 18px;
+    color:white;
+    cursor: pointer;
+}
+hr{
+    width: 10%;
+    color:rgb(242, 148, 41);
+}
+.section-center{
+    margin: 0 200px;
+    padding: 70px 0;
+}
+/* dfkfj */
+
+
+/* common css ends here */
+/* header starts here */
+#header-section{
+    background-color:black ;
+}
+.header-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 150px;
+    padding: 20px 0;
+}
+.logo-img{
+    width: 200px;
+    height: 50px;
+    cursor: pointer;
+}
+#menu-icon{
+    display: none;
+}
+.menubar nav ul li{
+    display: inline;
+    color:rgb(152, 145, 145);
+    margin: 0 10px;
+    font-family: 'Open Sans', sans-serif;
+}
+.menubar nav ul li a{
+    color:rgb(194, 187, 187);
+    text-decoration: none;
+    font-weight: bolder;
+}
+.head-icon ul li{
+    display: inline;
+    text-decoration: none;
+    padding: 0 10px;
+}
+.drowpdon-contaner{
+    display: inline;
+    position: relative;
+}
+.dropdown-content{
+    position: absolute;
+    top:40px;
+    right: 0;
+    background: black;
+    display: none;
+}
+.drowpdon-contaner:hover .dropdown-content{
+    display: block;
+}
+.dropdown-content a{
+    display: block;
+    padding: 0 25px;
+}
+.head-icon ul li a{
+    color:rgb(144, 130, 130)
+}
+/* header ends here */
+/* banner starts here */
+#banner-section{
+    background:rgb(100, 96, 96);
+    height: 700px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.banner-text{
+    text-align: center;
+}
+.fresh-head{
+    color:rgb(242, 148, 41);
+    font-size: 15px;
+    text-transform: uppercase;
+    letter-spacing:7px;
+    font-family: 'Poppins', sans-serif;
+}
+.delicious-head{
+    color:white;
+    font-size: 45px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    margin: 20px 0;
+}
+.fruit-collection-btn{
+    background: rgb(243, 133, 6);
+}
+.fruit-collection-btn:hover{
+    background: transparent
+}
+.banner-cotact-btn{
+    background: transparent;
+}
+.banner-cotact-btn:hover{
+    background: rgb(243, 133, 6);
+}
+/* banner ends here */
+/* healping starts here */
+#healp-sec{
+    min-height: 220px;
+    display: flex;
+    justify-content: space-evenly;
+    background: rgb(187, 181, 181);
+}
+.healping{
+    display: flex;
+    margin: 0 20px;
+    align-items: center;
+    justify-content: center;
+}
+.healp-icon i{
+    font-size: 40px;
+    color:rgb(243, 133, 6);
+    border: 2px dotted rgb(243, 133, 6);
+    border-radius: 50%;
+    padding: 10px;
+}
+.font-icon{
+    width:33.33%
+}
+.healp-text{
+    padding: 15px;
+    font-family: 'Poppins', sans-serif;
+}
+.shiping-head{
+    font-size: 25px;
+}
+/* healping ends here */
+
+/* ourproduct section starts here */
+#ourproduct-sec{
+    text-align: center;
+}
+.ourproduct-head{
+    font-size: 45px;
+}
+.modify-head{
+    color:rgb(243, 133, 6);
+}
+.ourproduct-text{
+    font-size: 20px;
+    text-align: center;
+  
+}
+.product-galery{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 40px 0;
+}
+.card{
+    box-shadow: 1px 1px 4px, -1px 0px 4px rgb(160, 135, 135);
+    flex:1;
+    margin: 0 20px;
+    padding: 15px;
+    transform: transition(4s);
+}
+.card:hover{
+    box-shadow: none;
+    transition: calc(1.5);
+}
+.card-img{
+    width:200px;
+    height: auto;
+}
+.product-name{
+    font-size: 22px;
+}
+.product-unit{
+    font-size: 15px;
+    margin: 10px 0;
+}
+.product-price{
+    font-size: 25px;
+    margin: 10px 0;
+}
+.product-btn{
+    background:rgb(243, 133, 6); 
+}
+
+/* ourproduct section ends here */
+/* deal of the month section starts here */
+#dealof-section{
+    background:rgb(187, 181, 181); 
+}
+.other-work{
+    display: flex;
+}
+.discount30{
+    flex: 1;
+    
+}
+.discount-circle{
+    background:rgb(243, 133, 6);
+    width: 100px;
+    height: 100px;
+    padding: 10px;
+    border-radius: 50px;
+    text-align: center;
+}
+.logo-30{
+    margin-top: 15px;
+    font-size: 20px;
+    color: rgb(29, 26, 26);
+}
+.per-kg{
+    font-size: 12px;
+}
+.dealof-article{
+    flex: 1;
+}
+.dealofmonth-article{
+    font-size: 28px;
+    font-family: 'Poppins', sans-serif;
+}
+.dealof-subhead{
+    font-size: 18px;
+    font-family: 'Open Sans', sans-serif;
+}
+.dealof-pragraph{
+    font-size: 18px;
+    margin: 20px 0;
+}
+.deal-card-container{
+    display: flex;
+}
+.deal-card{  
+    border: 1px solid rgb(243, 133, 6);
+    text-align: center;
+    margin: 15px 3px;
+}
+.card-head-0{
+    font-size: 22px;
+    padding: 5px 16px;
+    color:rgb(243, 133, 6);
+}
+.card-text{
+    font-size: 10px;
+    font-family: 'Poppins', sans-serif;
+}
+.Modify-00{
+    font-size: 12px;
+    color:black
+}
+/* deal of the month section starts here */
+
+/* slider section starts here */
+.slider-text{
+    text-align: center;
+}
+.slider-heading{
+    font-size: 25px;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+}
+.slider-subhead{
+    font-size: 22px;
+    text-align: center;
+}
+.slider-pragraph{
+    font-size: 18px;
+    font-family: 'Open Sans', sans-serif;
+    margin: 10px 150px;
+    text-align: center;
+}
+.slider-aside-main{
+    display: flex;
+    margin-top: 100px;
+    align-items: center;
+}
+.slider-aside{
+    flex: 1;
+}
+.slider-video{
+    width: 350px;
+    height: 250px;
+}
+.slider-article{
+    flex: 1;
+}
+/* slider section starts here */
+
+/* discount starts here */
+    #discount-sec{
+        background: rgb(214, 204, 204);
+    }
+
+    .sell-up{
+        display: flex;
+        align-items: center;
+        margin: 10px 0;
+    }
+    .upto-50{
+        font-size: 40px;
+        padding: 0 10px;
+        font-family: 'Open Sans', sans-serif;
+        color:rgb(243, 133, 6);
+
+    }
+    .off-sell{
+        font-size: 16px;
+        color: black;
+    }
+    
+/* discount ends here */
+/* footer starts here */
+#footer-sec{
+    background: rgb(60, 57, 57);
+}
+.footer-one{
+    display: flex;
+    margin: 70px 0;
+}
+.aboutus-head{
+    font-size: 22px;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    margin-bottom: 10px;
+}
+.aboutus-text{
+    flex: 1;
+}
+.aboutus-pragraph{
+    font-size: 14px;
+    font-family: 'Poppins', sans-serif;
+    padding: 10px 25px 0 0;
+    color: wheat;
+}
+.footer-menu nav ul li{
+    display: block;
+    
+}
+.footer-menu nav ul li a{
+    font-size: 18px;
+    color: wheat;
+    text-decoration: none;
+}
+.footer-menu nav ul li i{
+    font-size: 15px;
+    color:wheat
+}
+.footer-menu{
+    margin-top: 10px;
+}
+.email{
+    display: flex;
+}
+.form,input{
+    height: 40px;
+    font-size: 15px;
+    width: 200px;
+    background: rgb(34, 24, 24);
+    color: wheat;
+    border: none;
+    border-radius: 5px;
+}
+.footer-btn{
+    width:50px;
+    background: rgb(34, 24, 24);
+    background:rgb(243, 133, 6);
+    border: none;
+    border-radius: 5px;
+    margin: 0 8px;
+}
+.email-form{
+    margin-top: 10px;
+}
+.footer-hr{
+    width: 100%;
+}
+.footer-two{
+    display: flex;
+    justify-content: space-between;
+}
+.copyritht{
+    font-size: 18px;
+    color:wheat;
+    padding: 0;
+    margin: 0;
+}
+.footer-two-menu,ul li{
+    list-style-type: none;
+    display: inline;
+    margin: 0 10px;
+}
+.footer-two-menu,ul li a{
+   text-decoration: none;
+   color:white;
+   font-size: 25px;
+}
+
+
+
+/* footer ends here */
+
+
+
+
+
+
+
+
+
+
+/* responsive starts here */
+    @media screen and (max-width: 992px){
+        .header-container{
+           flex-direction: column;
+        }
+        #menu-icon{
+            display: block;
+            margin: 8px;
+            cursor: pointer;
+        }
+        .hidden{
+            display: none;
+        }
+
+        .menubar nav ul li{
+            display: block;
+            margin: 8px;
+        }
+        .head-icon ul li{
+            display: block;
+            margin: 8px;
+        }
+        .head-icon ul li{
+            display: none;
+        }
+        .card-img{
+            width:250px;
+            height: auto;
+        }
+        .slider-pragraph{
+            margin: 10px 50px;
+        }
+        .section-center{
+            margin: 0 100px;  
+        }
+        .footer-two-menu, .footer-icon{
+           display: block;
+        }
+      
+    @media screen and (max-width: 768px){
+        #banner-section{
+            height: 400px;
+        }
+        .delicious-head{
+            font-size: 30px;
+        }
+        #healp-sec{
+            flex-direction: column;
+        }
+        .healping{
+           margin: 30px 0;
+        }
+        .product-galery{
+            flex-direction: column;
+        }
+        .card{
+            margin-bottom: 20px;
+        }
+        .card-img{
+            width:300px;
+            height: auto;
+        }
+        .other-work{
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+        }
+        .discount30{
+          padding-bottom: 50px;  
+        }
+        .card-head-0{
+            text-align: center;
+        }
+        .dealof-subhead{
+            margin: 10px;
+        }
+        .slider-aside-main{
+            flex-direction: column;
+            text-align: center;
+        }
+        .slider-article{
+            margin-top: 30px;
+        }
+        .footer-one{
+            flex-direction: column;
+            text-align: center;
+            margin: 0;
+        }
+        .aboutus-text{
+            text-align: center;
+            margin-top: 15px;
+        }
+        hr{
+            display: none;
+        }
+        .email{
+            display: none;
+        }
+        .footer-two{
+            flex-direction: column;
+            height: min-content;
+        }
+        .copyritht{
+            margin-bottom: 20px;
+        }
+
+    }
+    @media screen and (max-width: 600px){
+        .ourproduct-head{
+            font-size: 32px;
+        }
+       .ourproduct-text{
+        margin: 2px;
+       }
+       #ourproduct-sec{
+        text-align: center;
+        margin: 70px 100px;
+    }
+    .section-center{
+        margin: 0 30px;  
+    }
+    .dealof-pragraph{
+        padding: 0 20px;
+    }
+    #ourproduct-sec{
+        margin: 70px 50px;
+    }
+    
+    }
+    @media screen and (max-width: 400px){
+        .delicious-head{
+            font-size: 25px;
+        }
+        .btn{
+            padding: 10px 12px;
+            margin: 8px;
+            font-size: 12px;
+        }
+        .section-center{
+            margin: 0 10px;
+            text-align: center;
+        }
+        .off-sell{
+           text-align: center;
+        }
+        .sell-up {
+            text-align: center;
+            margin: 0 100px;
+        }
+        .footer-one{
+            margin: 0;
+            padding: 0;
+        }
+        .copyritht{
+            font-size: 12px;
+        }
+       
+        
+    @media screen and (max-width: 360px){
+        #ourproduct-sec{
+            margin: 70px 50px;
+        }
+        .dealofmonth-article{
+            font-size: 20px;
+        }
+        .upto-50{
+            font-size: 25px;
+        }
+    }
+/* responsive ends here */
